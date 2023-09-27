@@ -1,0 +1,37 @@
+/* @import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css); */
+
+body {
+    background: #cbcbcb;
+}
+
+button {
+    display: inline-block;
+    width: 8em;
+    height: 5ex;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+
+.fill {
+    background: black;
+    color: white;
+}
+
+button:hover:nth-last-of-type(3n+1) {
+    background: green;
+    border: black;
+}
+
+button:hover.green {
+    border-color: green;
+    color: green;
+    border: 2px solid green;
+    background: white;
+}
