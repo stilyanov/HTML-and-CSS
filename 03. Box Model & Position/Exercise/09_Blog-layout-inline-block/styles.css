@@ -1,0 +1,38 @@
+html {
+    font-family: Helvetica, sans-serif;
+    position: relative;
+}
+
+h1, h2, h3, ul, li {
+    line-height: 1.5em;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    padding: 0 1.5em;
+    width: 70%;
+    color: rgb(51, 51, 51);
+}
+
+img {
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+.aside {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 18rem;
+    transform: translateX(-30%);
+}
+
+.aside ul {
+    padding-inline-start: 30px;
+    
+}
+
+footer {
+    font-style: italic;
+}

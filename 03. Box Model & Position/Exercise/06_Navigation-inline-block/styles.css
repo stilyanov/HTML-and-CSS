@@ -1,0 +1,38 @@
+html {
+    font-family: Helvetica, sans-serif;
+    margin-left: 5em;
+    margin-right: 5em;
+    line-height: 1.5;
+}
+
+.site-title {
+    font-size: 3em;
+    /* position: relative; */
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none outside;
+    margin: 0 0.2em;
+}
+
+nav a {
+    display: block;
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+    color: green;
+}
