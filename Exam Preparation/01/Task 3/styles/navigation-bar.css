@@ -1,0 +1,22 @@
+.header {
+    color: #fff;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .container .main-nav ul {
+    display: flex;
+}
+
+.header .container .main-nav li {
+    display: block;
+    padding: 1em 2.5em;
+}

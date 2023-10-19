@@ -1,0 +1,31 @@
+.top-bar {
+    background: #D01919;
+    color: #fff;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.top-bar .socials {
+    display: flex;
+}
+
+.top-bar .socials li,
+.top-bar .socials a {
+    display: block;
+}
+
+.top-bar .socials li {
+    padding: 0 0.5em;
+}
+
+.top-bar a {
+    color: #fff;
+}
+
+.top-bar .socials a span {
+    display: none;
+}

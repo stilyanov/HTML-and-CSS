@@ -1,0 +1,64 @@
+.section-columns .container {
+    padding: 2em;
+}
+
+.section-columns .section-header {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.section-columns .section-content {
+    display: flex;
+    gap: 2em
+}
+
+.section-columns .section-content article {
+    flex: 1 1 30%;
+    padding: 0 4em;
+}
+
+.section-features {
+    background: #fff;
+}
+
+.section-features h4 {
+    color: #D01919;
+}
+
+.section-features img {
+    width: 15%;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.section-columns .section-content {
+    text-align: center;
+}
+
+.section-coaches h5 {
+    color: #D01919;
+}
+
+.section-columns h3 span {
+    display: block;
+    margin: 1em auto;
+    width: 5ch;
+    height: 2px;
+    background: #D01919;
+}
+
+.section-coaches h4,
+.section-coaches h5 {
+    padding: 0.5em 0;
+}
+
+.section-coaches .section-content p {
+    padding: 0 4em;
+    color: #A6A1AC;
+}
+
+.section-coaches .media {
+    overflow: hidden;
+    border-radius: 0.3em;
+}

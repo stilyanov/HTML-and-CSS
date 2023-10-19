@@ -1,0 +1,32 @@
+body {
+    background: #000;
+    background-repeat: no-repeat;
+    background-image: url(../image/fitness-main.jpg);
+    background-size: contain;
+    background-position: center -230px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-coaches {
+    background: #EFEFEF;
+}
+
+.site-footer {
+    background: #D01919;
+    color: #fff;
+}
+
+.site-footer p {
+    text-align: center;
+    padding: 1em;
+}
