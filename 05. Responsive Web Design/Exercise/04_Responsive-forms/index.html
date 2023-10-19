@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Forms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-self: center;
+            border: 1px solid red;
+            min-height: 50vh;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 1em;
+            background: #EEE;
+            border: 1px solid #AAA;
+            box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.2);
+            border-radius: 0.5em;
+            max-width: 300px;
+        }
+
+        .text-box {
+            background: white;
+            padding: 1em;
+            margin: 0.5em;
+            box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.2);
+            border-radius: 0.2em;
+        }
+
+        .button {
+            align-self: flex-start;
+            background: black;
+            color: white;
+            padding: 0.5em 1em;
+            font-size: 80%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <div class="title">Login</div> -->
+
+    <div class="box">
+
+        <h5>Username <i class="fa-solid fa-user"></i><div class="text-box"></div></h5>
+        <h5>Password <i class="fa-solid fa-key"></i><div class="text-box"></div></h5>
+
+        <div class="button">Login</div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Media Boxes</title>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font: 1em/1.2 Helvetica, sans-serif;
+    }
+
+    body {
+        background: rgb(238, 238, 238);
+        display: flex;
+        padding: 2em;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .card-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card {
+        background: rgb(255, 255, 255);
+        border-radius: 0.5em;
+        box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.3);
+    }
+
+    .card-text {
+        padding: 1em;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .card-text h3 {
+        padding-bottom: 0.5em;
+    }
+
+    .card-text p {
+        padding-bottom: 4em;
+    }
+
+    .card-text .button {
+        background: rgb(0, 153, 0);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 1em;
+        padding: 0.5em 1em;
+        border-radius: 0.2em;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+</style>
+
+<body>
+    <section class="card">
+
+        <div class="card-img"><img
+                src="https://images.unsplash.com/photo-1538230942844-e89414a0692d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=34dcc54db235ce71b59c1d5ada02bdc4&auto=format&fit=crop&w=400&q=80">
+        </div>
+
+        <div class="card-text">
+            <h3>Card Title</h3>
+            <p>Short description of what this is all about - crafted to make people interested.</p>
+
+            <div class="button"><a href="#">See more</a></div>
+        </div>
+
+    </section>
+</body>
+
+</html>
