@@ -1,0 +1,35 @@
+.info {
+    border-bottom: 0.7px solid #9B9395;
+}
+
+.info .container {
+    padding: 5em 0;
+    display: flex;
+    gap: 4em;
+}
+
+.info article {
+    padding: 3em 0;
+}
+
+.info h2 {
+    font-size: 3.5em;
+    color: #37282B;
+}
+
+.info article p {
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+    width: 68ch;
+    font-size: 1.2em;
+    color: #9B9395;
+}
+
+.info a {
+    text-decoration: none;
+    padding: 1em 1.5em;
+    border: 2px solid #B0825C;
+    color: #B0825C;
+    font-weight: bold;
+    font-size: 1.1em;
+}

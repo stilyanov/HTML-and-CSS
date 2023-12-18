@@ -1,0 +1,26 @@
+.footer-articles .container {
+    display: flex;
+    gap: 7em;
+}
+
+footer {
+    background: #171720;
+    border-bottom: 1px solid #3A3A41;
+    padding-bottom: 2em;
+}
+
+.footer-articles h3 {
+    color: #FFFFF1;
+    padding: 2em 0;
+    font-size: 1.5em;
+}
+
+.footer-articles ul {
+    color: #B3A6A8;
+}
+
+.footer-articles li {
+    display: block;
+    padding: 0.5em 0;
+    text-transform: uppercase;
+}
